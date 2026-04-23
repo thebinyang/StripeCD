@@ -15,34 +15,34 @@ Run the StripeCD change detection algorithm
 After obtaining the .mat feature files, run the main script StripeCD.m.  
 This will perform the stripe-based change representation and extraction to produce the final change detection map.  
 
-📂 Repository Structure
-text
-├── proximal_operators/     # Proximal operators for optimization
-├── SLIC_functions/         # SLIC superpixel segmentation functions
-├── UntrainedNetwork/      # Untrained network for deep feature generation
-├── admm_averS_neumann.m   # ADMM solver for the main model
-├── cd_evaluation.m         # Quantitative evaluation metrics
-├── extract_cmp.m          # Feature comparison and extraction utilities
-├── fw_bw_fuse.m            # Forward-backward fusion functions
-├── getLR.m                 # Stripe modeling
-├── getPCA.m                # PCA preprocessing
-├── StripeCD.m             # Main script for StripeCD
-├── pca_kmeans.m            # PCA + K-means clustering
-├── slicmex.mexw64          # Compiled MEX file for SLIC
-└── README.md               # This file
+📂 Repository Structure  
+text  
+├── proximal_operators/     # Proximal operators for optimization  
+├── SLIC_functions/         # SLIC superpixel segmentation functions  
+├── UntrainedNetwork/      # Untrained network for deep feature generation  
+├── admm_averS_neumann.m   # ADMM solver for the main model  
+├── cd_evaluation.m         # Quantitative evaluation metrics  
+├── extract_cmp.m          # Feature comparison and extraction utilities  
+├── fw_bw_fuse.m            # Forward-backward fusion functions  
+├── getLR.m                 # Stripe modeling  
+├── getPCA.m                # PCA preprocessing  
+├── StripeCD.m             # Main script for StripeCD  
+├── pca_kmeans.m            # PCA + K-means clustering  
+├── slicmex.mexw64          # Compiled MEX file for SLIC  
+└── README.md               # This file  
 
-📝 Citation
-If you find this code useful in your research, please cite our paper:
-bibtex
-@article{yang2024changerepresentation,
-  title={Change Representation and Extraction in Stripes: Rethinking Unsupervised Hyperspectral Image Change Detection With an Untrained Network},
-  author={Yang, B. and Mao, Y. and Liu, L. and Fang, L. and Liu, X.},
-  journal={IEEE Transactions on Image Processing},
-  volume={33},
-  pages={5098--5113},
-  year={2024},
-  publisher={IEEE},
-  doi={10.1109/TIP.2024.3438100}
+📝 Citation  
+If you find this code useful in your research, please cite our paper:  
+bibtex  
+@article{yang2024changerepresentation,  
+  title={Change Representation and Extraction in Stripes: Rethinking Unsupervised Hyperspectral Image Change Detection With an Untrained Network},  
+  author={Yang, B. and Mao, Y. and Liu, L. and Fang, L. and Liu, X.},  
+  journal={IEEE Transactions on Image Processing},  
+  volume={33},  
+  pages={5098--5113},  
+  year={2024},  
+  publisher={IEEE},  
+  doi={10.1109/TIP.2024.3438100}  
 }
 
 📬 Contact
