@@ -2,10 +2,11 @@
 Change Representation and Extraction in Stripes: Rethinking Unsupervised Hyperspectral Image Change Detection With an Untrained Network
 
 This repository contains the official MATLAB implementation of StripeCD, an unsupervised hyperspectral image change detection method proposed in the following paper:
+
 B. Yang, Y. Mao, L. Liu, L. Fang and X. Liu,"Change Representation and Extraction in Stripes: Rethinking Unsupervised Hyperspectral Image Change Detection With an Untrained Network,"IEEE Transactions on Image Processing, vol. 33, pp. 5098-5113, 2024.DOI: 10.1109/TIP.2024.3438100
 
 🚀 Quick Start
-1. Step-by-Step Workflow
+Step-by-Step Workflow
 The pipeline consists of two core steps:
 Generate untrained deep features
 Go to the UntrainedNetwork/ folder.
